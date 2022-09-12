@@ -17,10 +17,10 @@ mostrar.addEventListener("click", function(){
     uno.editaA(edA.value);
     uno.editaB(edB.value);
 
-    mostrarA.innerHTML=uno.consultaA();
-    mostrarB.innerHTML+=uno.consultaB();
-    mostrarC.innerHTML+=dos.consultaC();
-    mostrarD.innerHTML+=dos.consultaD();
+    mostrarA.innerHTML="Dato número 1: " + uno.consultaA();
+    mostrarB.innerHTML="Dato número 2: " + uno.consultaB();
+    mostrarC.innerHTML="Parámetro 1: " + dos.consultaC();
+    mostrarD.innerHTML="Parámetro 2: " + dos.consultaD();
 })
 
 
