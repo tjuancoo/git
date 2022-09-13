@@ -5,10 +5,10 @@ class Uno{
     }
     //crea métodos para consultar y editar las propiedades
     editaA(A){
-        this.a=A;
+        this.a= "Su dato es " + A;
     }
     editaB(B){
-        this.b=B
+        this.b= "su dato es " + B;
     }
     consultaA(){
         return this.a;
@@ -21,8 +21,8 @@ class Uno{
 
 class Dos{
     constructor(dato1, dato2){
-        this.c=dato1;
-        this.d=dato2;
+        this.c= " Su parametro seleccioando es " + dato1;
+        this.d= " Su parametro seleccioando es " + dato2;
     }
     //crea metodos para consultar las propiedades
     consultaC(){
